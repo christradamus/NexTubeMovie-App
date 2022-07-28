@@ -23,7 +23,7 @@ class HomeView: UIViewController {
     lazy var searchController: UISearchController = ({
         let controller = UISearchController(searchResultsController: nil)
         controller.hidesNavigationBarDuringPresentation = true
-        controller.obscuresBackgroundDuringPresentation = true
+        controller.obscuresBackgroundDuringPresentation = false
         controller.searchBar.sizeToFit()
         controller.searchBar.barStyle = .black
         controller.searchBar.backgroundColor = .darkGray
